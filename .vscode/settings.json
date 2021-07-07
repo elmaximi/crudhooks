@@ -1,0 +1,4 @@
+{
+    "appService.deploySubpath": ".",
+    "appService.defaultWebAppToDeploy": "/subscriptions/f6901fea-17f7-4b6f-b4d3-55894837bb59/resourceGroups/crudHooksTest-plan/providers/Microsoft.Web/sites/crudhookstest"
+}

@@ -4,6 +4,15 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+
+var express = require("express");
+var server = express();
+var options = {
+  index: "index.html",
+};
+server.use("/", express.static("/home/site/wwwroot", options));
+server.listen(process.env.PORT);
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
